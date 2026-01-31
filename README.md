@@ -9,14 +9,19 @@ This project implements a **Deep Learning** model that uses **Transfer Learning*
 ## Results and Demonstration
 
 The model demonstrates the ability to assign semantically coherent colors to different categories of objects. Below are some examples of colorization performed by the AI compared to the baseline (grayscale).
+### Loss Curve
+The graph below shows the convergence of the error during the neural network training.
 
+![Loss Curve](images/results_1.png)
 ### Colorization Examples
 
 | Category | Visual Result | Metric (PSNR) |
 | :--- | :--- | :---: |
-| **Animals (Horses)** | ![Result 1](images/results_1.webp) | **30.48 dB** |
-| **Objects (Airplane)** | ![Result 2](images/results_2.webp) | **29.69 dB** |
-| **Nature (Bird)** | ![Result 3](images/results_3.webp) | **28.25 dB** |
+| **Horsers** | ![Result 1](images/results_2.png) | **30.48 dB** |
+| **Dog** | ![Result 2](images/results_3.png) | **27.52 dB** |
+| **Bird** | ![Result 3](images/results_5.png) | **29.69 dB** |
+| **Airplane** | ![Result 4](images/results_4.png) | **26.54 dB** |
+| **Woman & Dog** | ![Result 5](images/results_6.png) | **28.25 dB** |
 
 *Note: Higher PSNR values indicate greater fidelity in reconstructing the original colors.*
 
