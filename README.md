@@ -6,7 +6,7 @@
 
 This project implements a **Deep Learning** model that uses **Transfer Learning** to automatically colorize black and white images. The approach employs the pre-trained **ResNet-18** architecture as an encoder and works in the **Lab color space**, where the luminosity channel (L) is used as input to predict the color channels (ab).
 
-## 🎨 Results and Demonstration
+## Results and Demonstration
 
 The model demonstrates the ability to assign semantically coherent colors to different categories of objects. Below are some examples of colorization performed by the AI compared to the baseline (grayscale).
 
